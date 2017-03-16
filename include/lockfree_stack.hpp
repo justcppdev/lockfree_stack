@@ -114,6 +114,6 @@ public:
 
     auto empty() -> bool
     {
-        return head_;
+        return !head_;
     }
 };
